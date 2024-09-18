@@ -5,7 +5,7 @@ use tokio::{time::Instant, try_join};
 
 use crate::{
     repository::repository_logic,
-    tx::{context::CONTEXT, local_tx::LOCAL_EXECUTOR},
+    tx::{context::CONTEXT, local_executor::LOCAL_EXECUTOR},
 };
 
 #[transactional]
