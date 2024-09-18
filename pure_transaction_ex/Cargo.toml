@@ -1,0 +1,11 @@
+[package]
+name = "pure_transaction_ex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = { version = "0.8.5", features = ["small_rng", "std"] }
+tokio = { version = "1.40.0", features = ["full"] }
+shared = { path = "../shared" }
+lazy_static = "1.5.0"
+tokio-stream = "0.1.16"

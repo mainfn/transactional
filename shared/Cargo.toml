@@ -1,0 +1,9 @@
+[package]
+name = "shared"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.30"
+rand = { version = "0.8.5", features = ["std"] }
+tokio = { version = "1.40.0", features = ["full"] }
