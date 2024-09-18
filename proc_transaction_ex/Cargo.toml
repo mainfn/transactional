@@ -1,0 +1,12 @@
+[package]
+name = "proc_transaction_ex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.40.0", features = ["full"] }
+shared = { path = "../shared" }
+tokio-stream = "0.1.16"
+rand = "0.8.5"
+lazy_static = "1.5.0"
+local_transactional = { path = "../local_transactional" }
